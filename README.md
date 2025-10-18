@@ -16,8 +16,8 @@ A language learning browser extension that translates any word to English and sa
 
 ### Firefox
 
-**Option 1: Firefox Add-ons Store** (Under Review - Coming Soon)
-- Install from [Firefox Add-ons Store](https://addons.mozilla.org/)
+**Option 1: Firefox Add-ons Store** (Under Review)
+- Install from [Firefox Add-ons Store](https://addons.mozilla.org/en-US/firefox/addon/osama-s-word-saver/) (Coming Soon)
 
 **Option 2: Direct Installation**
 1. Download [`osama-word-saver.xpi`](https://github.com/osama-khalid/osama-word-saver/raw/refs/heads/main/builds/osama-word-saver.xpi)
@@ -35,8 +35,8 @@ A language learning browser extension that translates any word to English and sa
 
 ### Chrome / Edge / Brave
 
-**Option 1: Chrome Web Store** (Under Review - Coming Soon)
-- Install from [Chrome Web Store](https://chrome.google.com/webstore)
+**Option 1: Chrome Web Store** (Under Review)
+- Install from [Chrome Web Store](https://chrome.google.com/webstore) (Coming Soon)
 
 **Option 2: Direct Installation**
 1. Download [`osama-word-saver-chrome.crx`](https://github.com/osama-khalid/osama-word-saver/raw/refs/heads/main/builds/osama-word-saver.crx)
