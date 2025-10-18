@@ -1,0 +1,63 @@
+{
+  "manifest_version": 2,
+  "name": "Osama's Word Saver",
+  "version": "3.0",
+  "description": "Language Learning Tool. Instantly translate any word to English. Supports 100+ languages.",
+  "permissions": [
+    "contextMenus",
+    "downloads",
+    "storage",
+    "activeTab",
+    "tabs",
+    "https://translate.googleapis.com/*",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "commands": {
+    "translate-selection": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+1",
+        "mac": "MacCtrl+Shift+1"
+      },
+      "description": "Osama's Word Saver"
+    },
+    "show-stats": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+2",
+        "mac": "MacCtrl+Shift+2"
+      },
+      "description": "Show word statistics"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "osama-word-saver@example.com",
+      "strict_min_version": "79.0"
+    },
+    "gecko_android": {
+      "strict_min_version": "113.0"
+    }
+  }
+}
