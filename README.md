@@ -117,8 +117,9 @@ The extension supports 100+ languages including:
 - Chinese (zh), Japanese (ja), Korean (ko)
 - Arabic (ar), Russian (ru), Hindi (hi)
 - Dutch (nl), Swedish (sv), Polish (pl), Turkish (tr)
+- Urdu (ur), Pashto (ps), Farsi (Fa)
 
-**And many more:** Afrikaans, Albanian, Amharic, Armenian, Azerbaijani, Basque, Belarusian, Bengali, Bosnian, Bulgarian, Catalan, Cebuano, Chichewa, Corsican, Croatian, Czech, Danish, Esperanto, Estonian, Filipino, Finnish, Frisian, Galician, Georgian, Greek, Gujarati, Haitian Creole, Hausa, Hawaiian, Hebrew, Hmong, Hungarian, Icelandic, Igbo, Indonesian, Irish, Javanese, Kannada, Kazakh, Khmer, Kurdish, Kyrgyz, Lao, Latin, Latvian, Lithuanian, Luxembourgish, Macedonian, Malagasy, Malay, Malayalam, Maltese, Maori, Marathi, Mongolian, Myanmar, Nepali, Norwegian, Pashto, Persian, Punjabi, Romanian, Samoan, Scottish Gaelic, Serbian, Sesotho, Shona, Sindhi, Sinhala, Slovak, Slovenian, Somali, Sundanese, Swahili, Tajik, Tamil, Telugu, Thai, Ukrainian, Urdu, Uzbek, Vietnamese, Welsh, Xhosa, Yiddish, Yoruba, Zulu
+**And many more:** 
 
 ## Project Structure
 
@@ -158,52 +159,6 @@ osama-word-saver/
     └── screenshots/
 ```
 
-## Building from Source
-
-### Prerequisites
-- Git
-- Bash shell (Linux/Mac/WSL on Windows)
-- `zip` command-line tool
-
-### Clone the Repository
-```bash
-git clone https://github.com/osama-khalid/osama-word-saver.git
-cd osama-word-saver
-```
-
-### Build Firefox Extension
-```bash
-cd firefox
-zip -r -FS ../builds/osama-word-saver.xpi * --exclude "*.git*" --exclude "readme.md"
-cd ..
-```
-
-### Build Chrome Extension
-```bash
-cd chrome
-zip -r ../builds/osama-word-saver.zip * --exclude "*.git*" --exclude "readme.md"
-cd ..
-```
-
-### Test Your Build
-
-**Firefox:**
-```bash
-# Open Firefox
-# Navigate to: about:debugging
-# Click "This Firefox" → "Load Temporary Add-on"
-# Select: firefox/manifest.json
-```
-
-**Chrome:**
-```bash
-# Open Chrome
-# Navigate to: chrome://extensions/
-# Enable "Developer mode"
-# Click "Load unpacked"
-# Select the chrome/ folder
-```
-
 ## Privacy & Security
 
 ### What We Collect
@@ -240,15 +195,10 @@ For full privacy policy, see [`firefox/privacy_policy.txt`](firefox/privacy_poli
 Contributions are welcome! Here's how you can help:
 
 ### Reporting Bugs
-1. Check if the issue already exists in [Issues](../../issues)
-2. Create a new issue with:
-   - Browser and version
-   - Steps to reproduce
-   - Expected vs actual behavior
-   - Screenshots if applicable
+Email Osama: osama-khalid@uiowa.edu(osama-khalid@uiowa.edu)
 
 ### Suggesting Features
-1. Open a new issue with the `enhancement` label
+1. Email Osama: osama-khalid@uiowa.edu(osama-khalid@uiowa.edu)
 2. Describe the feature and use case
 3. Explain why it would be valuable
 
@@ -275,7 +225,16 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
-[Full license text in LICENSE file]
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 ```
 
 ## Support
