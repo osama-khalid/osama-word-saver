@@ -1,0 +1,84 @@
+Privacy Policy for Osama's Word Saver
+Last Updated: October 2025
+
+SUMMARY
+This extension does not collect, transmit, store, or share any personal data.
+
+DATA COLLECTION
+We collect ZERO personal data:
+- No analytics or tracking
+- No user accounts or authentication
+- No cookies or identifiers
+- No usage statistics
+- No telemetry
+
+DATA STORAGE
+All data is stored locally on your device:
+- Translated words and their English translations
+- Lookup counts and timestamps
+- Source language information
+- All data is stored in your browser's local storage API
+- Data never syncs to any cloud service
+- Data remains on your device unless you manually export it
+
+THIRD-PARTY SERVICES
+Google Translate API:
+- Translation requests are sent directly to translate.googleapis.com
+- Only the selected text is transmitted for translation
+- These requests are subject to Google's Privacy Policy: https://policies.google.com/privacy
+- We do not track, log, or store these translation requests
+- No identifying information is sent with translation requests
+
+DATA SHARING
+- We do not share any data with third parties
+- We do not sell any data
+- We have no access to your data
+- Your vocabulary list remains private to you
+
+PERMISSIONS EXPLAINED
+This extension requires the following permissions:
+
+- contextMenus: Adds the right-click "Osama's Word Saver" menu option
+- downloads: Enables CSV export of your vocabulary list to your local device
+- storage: Saves your translated words locally in browser storage
+- activeTab: Accesses only the text you select on the current page for translation
+- tabs: Detects the language of the webpage for improved translation accuracy
+- https://translate.googleapis.com/*: Sends translation requests to Google Translate API
+
+DATA RETENTION
+- Data is stored indefinitely in your browser until you:
+  1. Manually clear it using the "Clear All" button
+  2. Uninstall the extension
+  3. Clear your browser's storage/cache
+- Exported CSV files are saved to your local device only
+
+DATA SECURITY
+- No data transmission to our servers (we don't have any servers)
+- No external scripts or third-party trackers
+- Open source code - fully auditable on GitHub
+- No ads or marketing pixels
+
+YOUR RIGHTS
+You have complete control over your data:
+- View all saved words at any time via the extension popup
+- Export your data to CSV format
+- Delete individual words or clear all data
+- Uninstall the extension to remove all stored data
+
+CHILDREN'S PRIVACY
+This extension does not knowingly collect any data from anyone, including children under 13.
+
+OPEN SOURCE
+This extension is fully open source. You can review the complete source code at:
+https://github.com/osama-khalid/osama-word-saver
+
+CHANGES TO THIS POLICY
+If we make changes to this privacy policy, we will update the "Last Updated" date above and notify users through the extension store update notes.
+
+CONTACT
+For questions about this privacy policy:
+- Email Osama: osama-khalid@uiowa.edu
+- Review the source code to verify our privacy claims
+
+NO WARRANTY
+This extension is provided "as is" without warranty of any kind. See the MIT License for full details.
