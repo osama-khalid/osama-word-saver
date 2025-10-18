@@ -195,10 +195,10 @@ For full privacy policy, see [`firefox/privacy_policy.txt`](firefox/privacy_poli
 Contributions are welcome! Here's how you can help:
 
 ### Reporting Bugs
-Email Osama: osama-khalid@uiowa.edu(osama-khalid@uiowa.edu)
+Email Osama: [osama-khalid@uiowa.edu](osama-khalid@uiowa.edu)
 
 ### Suggesting Features
-1. Email Osama: osama-khalid@uiowa.edu(osama-khalid@uiowa.edu)
+1. Email Osama: [osama-khalid@uiowa.edu](osama-khalid@uiowa.edu)
 2. Describe the feature and use case
 3. Explain why it would be valuable
 
