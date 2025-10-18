@@ -20,7 +20,7 @@ A language learning browser extension that translates any word to English and sa
 - Install from [Firefox Add-ons Store](https://addons.mozilla.org/)
 
 **Option 2: Direct Installation**
-1. Download [`osama-word-saver.xpi`](https://github.com/osama-khalid/osama-word-saver/tree/main/builds/osama-word-saver.xpi)
+1. Download [`osama-word-saver.xpi`](https://github.com/osama-khalid/osama-word-saver/raw/refs/heads/main/builds/osama-word-saver.xpi)
 2. Open Firefox and navigate to `about:addons`
 3. Click the gear icon ⚙️ in the top right
 4. Select "Install Add-on From File..."
@@ -39,7 +39,7 @@ A language learning browser extension that translates any word to English and sa
 - Install from [Chrome Web Store](https://chrome.google.com/webstore)
 
 **Option 2: Direct Installation**
-1. Download [`osama-word-saver-chrome.crx`](https://github.com/osama-khalid/osama-word-saver/tree/main/builds/osama-word-saver.crx)
+1. Download [`osama-word-saver-chrome.crx`](https://github.com/osama-khalid/osama-word-saver/raw/refs/heads/main/builds/osama-word-saver.crx)
 2. Open Chrome and navigate to `chrome://extensions/`
 3. Enable "Developer mode" using the toggle in the top right
 4. Drag and drop the `.crx` file onto the extensions page
