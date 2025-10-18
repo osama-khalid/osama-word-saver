@@ -1,0 +1,141 @@
+Privacy Policy for Osama's Word Saver (Chrome Extension)
+Last Updated: October 2025
+
+SUMMARY
+This extension does not collect, transmit, store, or share any personal data.
+
+DATA COLLECTION
+We collect ZERO personal data:
+- No analytics or tracking
+- No user accounts or authentication
+- No cookies or identifiers
+- No usage statistics
+- No telemetry or error reporting
+- No background data transmission
+
+DATA STORAGE
+All data is stored locally on your device:
+- Translated words and their English translations
+- Lookup counts and first-seen timestamps
+- Source language information for each word
+- All data is stored using Chrome's local storage API (chrome.storage.local)
+- Data never syncs to Google account or any cloud service
+- Data remains on your device unless you manually export it
+- No server-side storage or database
+
+THIRD-PARTY SERVICES
+Google Translate API:
+- Translation requests are sent directly to translate.googleapis.com
+- Only the selected text is transmitted for translation purposes
+- These requests are subject to Google's Privacy Policy: https://policies.google.com/privacy
+- We do not track, log, or store these translation requests on any server
+- No identifying information (IP address, user ID, etc.) is sent with translation requests beyond what the browser automatically includes
+- Translation requests are made client-side directly from your browser
+
+DATA SHARING
+- We do not share any data with third parties
+- We do not sell any data
+- We have no access to your data (no backend servers)
+- Your vocabulary list remains completely private to you
+- No data is transmitted to the extension developer
+
+PERMISSIONS EXPLAINED
+This extension requires the following Chrome permissions:
+
+- **contextMenus**: Adds the right-click "Osama's Word Saver" menu option when you select text
+- **downloads**: Enables CSV export functionality to save your vocabulary list to your local device
+- **storage**: Saves your translated words locally in Chrome's storage (not synced to your Google account)
+- **activeTab**: Accesses only the text you select on the current active tab for translation
+- **scripting**: Injects content scripts to display translation tooltips and statistics overlay on web pages
+- **tabs**: Detects the language of webpages for improved automatic language detection and translation accuracy
+- **host_permissions (https://translate.googleapis.com/*)**: Allows the extension to send translation requests to Google Translate API
+
+All permissions are used solely for the core functionality of the extension and nothing else.
+
+DATA RETENTION
+- Data is stored indefinitely in Chrome's local storage until you:
+  1. Manually clear it using the "Clear All" button in the extension popup
+  2. Uninstall the extension (which removes all stored data)
+  3. Clear Chrome's browsing data/storage for extensions
+- Exported CSV files are saved to your local Downloads folder only
+- We do not retain any copies of your data
+
+DATA SECURITY
+- No data transmission to our servers (we don't operate any servers)
+- No external scripts or third-party trackers loaded
+- Open source code - fully auditable on GitHub: https://github.com/osama-khalid/osama-word-saver
+- No advertisements or marketing pixels
+- No remote code execution or dynamic code loading
+- All code is static and reviewed by Chrome Web Store
+
+YOUR RIGHTS AND CONTROLS
+You have complete control over your data:
+- View all saved words at any time via the extension popup
+- Export your entire vocabulary to CSV format
+- Filter and export by specific language
+- Delete all data instantly with the "Clear All" button
+- Uninstall the extension to permanently remove all stored data from your device
+- No account required - no data recovery after deletion
+
+CHILDREN'S PRIVACY
+This extension does not knowingly collect any data from anyone, including children under 13 years of age (COPPA compliance). Since we don't collect any data at all, there are no special considerations for children's data.
+
+MANIFEST V3 COMPLIANCE
+This extension uses Manifest V3, Chrome's latest extension platform:
+- Uses service workers instead of persistent background pages
+- Follows Chrome's security best practices
+- Declarative permissions model
+- Enhanced security and privacy protections
+
+OPEN SOURCE TRANSPARENCY
+This extension is fully open source:
+- Complete source code available at: https://github.com/osama-khalid/osama-word-saver
+- You can review every line of code to verify our privacy claims
+- Community auditable and transparent
+- No obfuscated or minified code in production
+
+CHANGES TO THIS POLICY
+If we make changes to this privacy policy:
+- The "Last Updated" date at the top will be updated
+- Users will be notified through Chrome Web Store update notes
+- Significant changes will be highlighted in the extension's changelog
+
+COMPLIANCE
+This extension complies with:
+- Chrome Web Store Developer Program Policies
+- Google's User Data Privacy requirements
+- GDPR (General Data Protection Regulation) principles
+- COPPA (Children's Online Privacy Protection Act)
+- California Consumer Privacy Act (CCPA)
+
+CONTACT & SUPPORT
+For questions about this privacy policy or data practices:
+- Send Osama an Email: osama-khalid@uiowa.edu
+- Review the source code to verify privacy claims
+- Chrome Web Store support page: [Coming Soon]
+
+LEGAL DISCLAIMER
+This extension is provided "as is" without warranty of any kind, express or implied. We are not responsible for:
+- Data loss (though data is stored locally and backed up by exporting)
+- Translation accuracy (provided by Google Translate API)
+- Compatibility with other extensions or browser features
+
+See the full MIT License in the project repository for complete legal terms.
+
+DATA PROCESSING SUMMARY
+- Location of data processing: Your local device only
+- Data processor: Your web browser (Google Chrome)
+- Data controller: You (the end user)
+- Third-party processors: Google Translate API (only for translation requests)
+- International transfers: None (data stays on your device)
+- Data retention period: Until you delete it
+
+VERIFICATION
+To verify that no data is being transmitted:
+1. Open Chrome DevTools (F12)
+2. Go to Network tab
+3. Use the extension
+4. You will only see requests to translate.googleapis.com (for translations)
+5. No other network requests are made
+
+You can also review the complete source code on GitHub to verify all privacy claims made in this policy.
