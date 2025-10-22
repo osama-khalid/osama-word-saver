@@ -16,7 +16,7 @@ A language learning browser extension that translates any word to English and sa
 
 ### Firefox
 
-**Option 1: Firefox Add-ons Store** (Under Review)
+**Option 1: Firefox Add-ons Store**
 - Install from [Firefox Add-ons Store](https://addons.mozilla.org/en-US/firefox/addon/osama-s-word-saver/)
 
 **Option 2: Direct Installation**
