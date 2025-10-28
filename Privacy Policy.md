@@ -1,6 +1,6 @@
-Privacy Policy for Osama's Word Saver Chrome Extension
+**Privacy Policy for Osama's Word Saver Chrome Extension**
 
-Effective Date: October 17, 2025
+**Effective Date: October 17, 2025**
 
 This document outlines the privacy practices of the Osama's Word Saver Chrome Extension ("the Extension") in a comprehensive prose format. We are committed to protecting your privacy by ensuring minimal data collection and secure handling, with a primary focus on local storage.
 
